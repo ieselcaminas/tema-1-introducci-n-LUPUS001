@@ -1,3 +1,4 @@
+//este codigo usa la conjetura de Collatz
 package w3resource;
 
 import java.util.Scanner;
