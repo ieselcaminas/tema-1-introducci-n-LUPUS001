@@ -2,7 +2,7 @@ package w3resource;
 
 import java.util.Scanner;
 
-public class Ej1 {
+public class Ej1_152 {
     public static void main(String[] args) {
         int num1;
         int num2;
