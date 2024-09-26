@@ -22,3 +22,4 @@ public class Ej3_33 {
         //System.out.println(suma + num);/*V2*/
     }
 }
+//https://www.w3resource.com/java-exercises/basic/index.php

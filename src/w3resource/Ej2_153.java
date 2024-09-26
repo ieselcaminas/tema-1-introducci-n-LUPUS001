@@ -23,3 +23,4 @@ public class Ej2_153 {
         //los decimales cuando los escribimos en Scanner se ponen con coma
     }
 }
+//https://www.w3resource.com/java-exercises/basic/index1.php
