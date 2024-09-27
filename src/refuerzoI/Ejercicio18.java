@@ -22,6 +22,5 @@ public class Ejercicio18 {
                 System.out.println(n);
             }
         }
-
     }
 }
