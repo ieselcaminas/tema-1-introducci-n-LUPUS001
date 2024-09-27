@@ -21,6 +21,5 @@ public class Ejercicio35 {
 
         System.out.println(num1);
         //ya que num1(10) - num2(3) = 7 - num2(3) = 4 - num2(3) = 1 (resto)
-
     }
 }
