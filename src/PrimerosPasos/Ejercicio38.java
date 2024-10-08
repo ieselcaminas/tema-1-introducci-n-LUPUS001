@@ -31,7 +31,7 @@ public class Ejercicio38 {
                 System.out.println("El número secreto es más grande");
                 System.out.println("INTRODUCE OTRO NÚMERO");
             }
-        } while (true); //poniendo while true hace que siga ejecutandose el código hasta que haya un break
+        } while (true); //poniendo while true hace que el código siga ejecutándose hasta que haya un break
 
         //while (num != secreto);
 
