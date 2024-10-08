@@ -8,6 +8,7 @@ public class Ejercicio19 {
         double velocidad;
         double km;
         double segundos;
+        double puntos;
 
         Scanner sc = new Scanner(System.in);
 
@@ -22,10 +23,14 @@ public class Ejercicio19 {
         segundos = segundos / 3600;
         velocidad = metros / segundos;
 
-        if (velocidad > km ){
-            System.out.println("MULTA");
-        } else {
+        puntos = km * 0.20;
+
+        if (velocidad < km){
             System.out.println("OK");
+        } else if (velocidad > km && velocidad < puntos) {
+            System.out.println("MULTA");
+        } else if (velocidad > puntos){
+            System.out.println("PUNTOS");
         }
     }
 }
