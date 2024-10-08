@@ -2,8 +2,6 @@ package PrimerosPasos;
 
 import javax.swing.*;
 
-import static javax.swing.JOptionPane.showInputDialog;
-
 public class Ejercicio28 {
     public static void main(String[] args) {
         String sc = JOptionPane.showInputDialog("Dame un número");
@@ -22,9 +20,9 @@ public class Ejercicio28 {
         }
 
         if (primo){
-            System.out.println("Es primo");
+            System.out.println(num + " es primo");
         } else{
-            System.out.println("No es primo");
+            System.out.println(num + " no es primo");
         }
 
 
