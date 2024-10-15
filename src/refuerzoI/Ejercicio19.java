@@ -19,8 +19,9 @@ public class Ejercicio19 {
         System.out.println("Escriba el tiempo de intervalo");
         segundos = sc.nextDouble();
 
-        metros = metros / 1000;
+        metros = metros / 1000; //pasamos los metros a kilometros
         segundos = segundos / 3600;
+        //pasamos los segundos a horas para que la valocidad que calculemos este en kilometros por hora
         velocidad = metros / segundos;
 
         puntos = km * 0.20;
