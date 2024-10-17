@@ -20,7 +20,7 @@ public class Ejercicio19 {
 
         sc.close();
 
-        //para calcular el plus de dinero por horas extras/el pago bruto
+        //para calcular el plus de dinero por horas extras/el pago bruto.
         if (horas <= 35){
             salarioBruto = precioHora * horas;
             //es necesario crear este if, para poder calcular el plus de dinero que ganamos en las horas extras
